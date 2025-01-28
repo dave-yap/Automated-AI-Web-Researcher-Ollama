@@ -10,7 +10,7 @@ LLM_CONFIG_OLLAMA = {
     "temperature": 0.7,
     "top_p": 0.9,
     "n_ctx": 55000,
-    "num_gpu": 0, # 0 for CPU usage, 1 for offloading to GPU1
+    "num_gpu": 0, # e.g 0 for CPU usage, 1 for offloading to GPU1; defaults to 0
     "stop": ["User:", "\n\n"]
 }
 
